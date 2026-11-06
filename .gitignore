@@ -1,0 +1,92 @@
+# Unreal Engine standard ignores
+
+# Build artifacts
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Visual Studio files
+*.VC.db
+*.VC.VC.opendb
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+*.sln
+.vs
+
+# JetBrains Rider / CLion / JetBrains IDEs
+.idea/
+
+# OS generated files
+.DS_Store
+*.swp
+Thumbs.db
+
+# Crash dumps, logs, generated symbols
+*.dmp
+*.log
+*.hlslcc
+*.ush
+*.usf
+*.psh
+*.shh
+*.sh
+*.dylib
+*.pdb
+*.exe
+
+# Always include essential folders
+!Config/**
+!Content/**
+!Source/**
+!Plugins/**
+!*.uproject
+
+# Unreal Build Tool files (macOS / iOS related mostly)
+Build/**/*.xcodeproj
+Build/**/*.xcworkspace
+
+# Ignore entire Binaries and Plugins binaries folders first
+Binaries/*
+Plugins/**/Binaries/*
+
+# Allow Win64 executables and DLLs for project binaries
+!Binaries/Win64/
+!Binaries/Win64/*.dll
+
+# Ignore debug symbols and other linker outputs for project
+Binaries/Win64/*.pdb
+Binaries/Win64/*.exp
+Binaries/Win64/*.lib
+Binaries/Win64/*.exe
+Binaries/Win64/*-DebugGame.target
+Binaries/Win64/*-DebugGame.dll
+Binaries/Win64/*-DebugGame.modules
+
+# Allow Plugin Win64 executables and DLLs for binaries
+!Plugins/*/Binaries/Win64/
+!Plugins/*/Binaries/Win64/*.dll
+
+# Ignore debug symbols and other linker outputs for plugins
+Plugins/*/Binaries/Win64/*.pdb
+Plugins/*/Binaries/Win64/*.exp
+Plugins/*/Binaries/Win64/*.lib
+Plugins/*/Binaries/Win64/*.exe
+Plugins/*/Intermediate/*
+Plugins/*/Binaries/Win64/*-DebugGame.dll
+Plugins/*/Binaries/Win64/*-DebugGame.modules
+# Plugins/*/Binaries/Mac/*
+
+# Built data for light bake
+*_BuiltData.uasset
+
+# Special Folders to ignore
+Content/00_RND/*
+
+# Dash Plugin files
+DashLibData/*
