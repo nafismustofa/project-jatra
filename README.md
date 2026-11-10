@@ -1,6 +1,7 @@
 # Jatra
 
 [![Latest Release](https://img.shields.io/github/v/release/nafismustofa/project-jatra)](https://github.com/nafismustofa/project-jatra/releases/latest)
+[![License: MIT](https://img.shields.io/github/license/nafismustofa/project-jatra)](https://github.com/nafismustofa/project-jatra/blob/main/LICENSE)
 
 **A flexible locomotion system for Unreal Engine, built on Motion Matching with a simple, data-driven overlay system.**
 
