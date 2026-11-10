@@ -30,7 +30,7 @@ Full documentation is on the [wiki](https://github.com/nafismustofa/project-jatr
 
 ## License
 
-Jatra is licensed for use only with Unreal Engine-based products, in accordance with the [Unreal Engine Content License Agreement](https://www.unrealengine.com/eula/content).
+Distributed under the [MIT License](LICENSE). Copyright (c) 2026 nafismustofa.
 
 ## Contributing
 
