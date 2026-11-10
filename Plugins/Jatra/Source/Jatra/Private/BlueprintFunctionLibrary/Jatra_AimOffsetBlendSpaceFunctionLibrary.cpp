@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 2026 nafismustofa. All Rights Reserved. SPDX-License-Identifier: MIT
 
 #include "BlueprintFunctionLibrary/Jatra_AimOffsetBlendSpaceFunctionLibrary.h"
 #include "UObject/Package.h"

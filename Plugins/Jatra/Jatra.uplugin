@@ -1,14 +1,14 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0",
+	"VersionName": "1.0.1",
 	"FriendlyName": "Jatra",
-	"Description": "",
-	"Category": "Other",
+	"Description": "A flexible locomotion system for Unreal Engine, built on Motion Matching with a simple, data-driven overlay system.",
+	"Category": "Character Locomotion",
 	"CreatedBy": "nafismustofa",
 	"CreatedByURL": "https://nafismustofa.vercel.app/",
-	"DocsURL": "",
-	"MarketplaceURL": "",
+	"DocsURL": "https://github.com/nafismustofa/project-jatra/wiki",
+	"MarketplaceURL": "https://github.com/nafismustofa/project-jatra",
 	"SupportURL": "",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
@@ -22,14 +22,41 @@
 		}
 	],
 	"Plugins": [
-		{ "Name": "EnhancedInput", "Enabled": true },
-		{ "Name": "Chooser", "Enabled": true },
-		{ "Name": "MotionTrajectory", "Enabled": true },
-		{ "Name": "PoseSearch", "Enabled": true },
-		{ "Name": "MotionWarping", "Enabled": true },
-		{ "Name": "AnimationWarping", "Enabled": true },
-		{ "Name": "AnimationLocomotionLibrary", "Enabled": true },
-		{ "Name": "DrawDebugLibrary", "Enabled": true },
-		{ "Name": "CurveExpression", "Enabled": true }
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "Chooser",
+			"Enabled": true
+		},
+		{
+			"Name": "MotionTrajectory",
+			"Enabled": true
+		},
+		{
+			"Name": "PoseSearch",
+			"Enabled": true
+		},
+		{
+			"Name": "MotionWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationLocomotionLibrary",
+			"Enabled": true
+		},
+		{
+			"Name": "DrawDebugLibrary",
+			"Enabled": true
+		},
+		{
+			"Name": "CurveExpression",
+			"Enabled": true
+		}
 	]
 }
