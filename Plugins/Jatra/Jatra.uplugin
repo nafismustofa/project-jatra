@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.1",
+	"VersionName": "1.1.0",
 	"FriendlyName": "Jatra",
 	"Description": "A flexible locomotion system for Unreal Engine, built on Motion Matching with a simple, data-driven overlay system.",
 	"Category": "Character Locomotion",
